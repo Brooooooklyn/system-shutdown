@@ -11,6 +11,11 @@ napi = { version = "2", default-features = false, features = ["napi3"] }
 napi-derive = "2"
 system_shutdown = "4"
 
+[target.'cfg(not(windows))'.dependencies]
+sudo = "0.6"
+[target.'cfg(windows)'.dependencies]
+deelevate = "0.2"
+
 [build-dependencies]
 napi-build = "2"
 

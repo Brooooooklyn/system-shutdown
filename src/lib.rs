@@ -1,7 +1,17 @@
 #![deny(clippy::all)]
 
-use napi::{Error, Result, Status};
+use napi::{module_init, Error, Result, Status};
 use napi_derive::napi;
+#[cfg(not(windows))]
+use sudo::escalate_if_needed;
+
+#[module_init]
+fn init() {
+  #[cfg(not(windows))]
+  {
+    escalate_if_needed().expect("Request sudo permission failed");
+  }
+}
 
 #[napi]
 pub fn shutdown() -> Result<()> {
