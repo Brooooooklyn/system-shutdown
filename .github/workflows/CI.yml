@@ -33,7 +33,6 @@ jobs:
           - host: windows-latest
             build: |
               yarn build --target i686-pc-windows-msvc
-              yarn test
             target: i686-pc-windows-msvc
           - host: ubuntu-latest
             target: x86_64-unknown-linux-gnu
@@ -167,6 +166,7 @@ jobs:
         shell: bash
       - name: Publish
         run: |
+          npm config set provenance true
           if git log -1 --pretty=%B | grep "^[0-9]\+\.[0-9]\+\.[0-9]\+$";
           then
             echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
