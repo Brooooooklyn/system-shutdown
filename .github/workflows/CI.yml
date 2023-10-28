@@ -3,6 +3,11 @@ env:
   DEBUG: napi:*
   APP_NAME: system-shutdown
   MACOSX_DEPLOYMENT_TARGET: '10.13'
+
+permissions:
+  contents: write
+  id-token: write
+
 'on':
   push:
     branches:
