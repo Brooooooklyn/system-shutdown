@@ -1,0 +1,18 @@
+[package]
+edition = "2021"
+name = "napi-rs_system-shutdown"
+version = "0.0.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+napi = { version = "2", default-features = false, features = ["napi3"] }
+napi-derive = "2"
+system_shutdown = "4"
+
+[build-dependencies]
+napi-build = "2"
+
+[profile.release]
+lto = true

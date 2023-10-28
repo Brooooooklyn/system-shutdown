@@ -1,0 +1,18 @@
+{
+  "name": "@napi-rs/system-shutdown-linux-arm-gnueabihf",
+  "version": "0.0.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm"
+  ],
+  "main": "system-shutdown.linux-arm-gnueabihf.node",
+  "files": [
+    "system-shutdown.linux-arm-gnueabihf.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@napi-rs/system-shutdown-freebsd-x64",
+  "version": "0.0.0",
+  "os": [
+    "freebsd"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "system-shutdown.freebsd-x64.node",
+  "files": [
+    "system-shutdown.freebsd-x64.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
