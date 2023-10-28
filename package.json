@@ -7,6 +7,10 @@
     "name": "LongYinan",
     "email": "github@lyn.one"
   },
+  "repository": {
+    "url": "https://github.com/Brooooooklyn/system-shutdown",
+    "type": "git"
+  },
   "napi": {
     "name": "system-shutdown",
     "triples": {

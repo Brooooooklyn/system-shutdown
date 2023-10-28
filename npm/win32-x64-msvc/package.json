@@ -11,8 +11,16 @@
   "files": [
     "system-shutdown.win32-x64-msvc.node"
   ],
+  "author": {
+    "name": "LongYinan",
+    "email": "github@lyn.one"
+  },
   "license": "MIT",
   "engines": {
     "node": ">= 10"
+  },
+  "repository": {
+    "url": "https://github.com/Brooooooklyn/system-shutdown",
+    "type": "git"
   }
 }
