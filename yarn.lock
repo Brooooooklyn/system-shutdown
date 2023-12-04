@@ -6,11 +6,11 @@ __metadata:
   cacheKey: 10c0
 
 "@napi-rs/cli@npm:^2.15.2":
-  version: 2.16.3
-  resolution: "@napi-rs/cli@npm:2.16.3"
+  version: 2.16.5
+  resolution: "@napi-rs/cli@npm:2.16.5"
   bin:
     napi: scripts/index.js
-  checksum: 9531d1aeb9bf40529c873b73c3dc5277ca28ff3bc97779f736732ef50b2de0719167e11397d193a1dd674d54c823c2b5fd3970c0cda9ea9e68444c1c2c29bded
+  checksum: 21edc1976f3d5c363fa039b761fb5e1fc17aefd8832a015bcb3fbd5469637634000fc5c977573adf68d7e71542c44af8b21e2da9594b211eb3afc1b7e735b070
   languageName: node
   linkType: hard
 
