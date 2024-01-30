@@ -10,7 +10,7 @@ __metadata:
   resolution: "@napi-rs/cli@npm:2.17.0"
   bin:
     napi: scripts/index.js
-  checksum: da50d466da7dadf92d818431b4e903189424280d0060f847f8b45a62a7fc54912207200b844e7e7d3e060528bf8a61c1afc72cfad2fe06fd2d8345b7593b225f
+  checksum: 10c0/da50d466da7dadf92d818431b4e903189424280d0060f847f8b45a62a7fc54912207200b844e7e7d3e060528bf8a61c1afc72cfad2fe06fd2d8345b7593b225f
   languageName: node
   linkType: hard
 
