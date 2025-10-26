@@ -8,7 +8,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 napi = { version = "2", default-features = false, features = ["napi3"] }
-napi-derive = "2"
+napi-derive = "3"
 system_shutdown = "4"
 
 [build-dependencies]
